@@ -16,21 +16,7 @@ dl_service = DeepLearningService()
 error_logging = Error()
 app = FastAPI(version='3.1.0', title='BMW InnovationLab YOLOv3 opencv inference Automation',
 			  description="<b>API for performing YOLOv3 opencv inference</b></br></br>"
-						  "<b>Contact the developers:</b></br>"
-						  "<b>Antoine Charbel: <a href='mailto:antoine.charbel@inmind.ai'>antoine.charbel@inmind.ai</a></b></br>"
-						  "<b>BMW Innovation Lab: <a href='mailto:innovation-lab@bmw.de'>innovation-lab@bmw.de</a></b>")
-
-
-# app.mount("/public", StaticFiles(directory="/main/public"), name="public")
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
+							"<b>Contact the developers:</b>")
 
 @app.get('/load')
 def load_custom():
