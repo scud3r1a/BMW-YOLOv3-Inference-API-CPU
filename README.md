@@ -1,6 +1,7 @@
 # YOLO v3 CPU Inference API for Linux
 This is a repository for an object detection inference API using the YOLO v3 object detection framework incl. OpenCV.
 The inference REST API works on CPU and does not require to use a GPU.
+
 ![logo](logo.png)
 
 Several object detection models can be loaded and used at the same time.
