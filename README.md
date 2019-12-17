@@ -2,11 +2,7 @@
 This is a repository for an object detection inference API using the YOLO v3 object detection framework incl. OpenCV.
 The inference REST API works on CPU and does not require to use a GPU.
 Several object detection models can be loaded and used at the same time.
-Models trained using the YOLO v3 training repository can be deployed in this API:
-```
-    https://github.com/BMW-InnovationLab/BMW-YOLOv3-Training-Automation
-```
-![predict image](./docs/4.gif)
+Models trained using the [YOLO v3 training repository](https://github.com/BMW-InnovationLab/BMW-YOLOv3-Training-Automation) can be deployed using this API.
 
 ## Install prerequisites
 #### Ubuntu
@@ -75,9 +71,9 @@ The latter is structured as follows (example):
 
 ## Example
 To use YOLO v3 (Tiny), download the following files:
-  - `https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg`
-  - `https://pjreddie.com/media/files/yolov3-tiny.weights`
-  - `https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names`
+  - https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg
+  - https://pjreddie.com/media/files/yolov3-tiny.weights
+  - https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
 
 Create the following path structure (renaming files might be necessary):
 ```
